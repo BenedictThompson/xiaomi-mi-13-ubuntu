@@ -55,10 +55,10 @@ AllowFallbackToIGC=false
 KernelDriver=nvidia_370
 PMMethod=auto
 # colon-separated path to the nvidia libraries
-LibraryPath=/usr/lib/nvidia-370:/usr/lib32/nvidia-370
+LibraryPath=/usr/lib/nvidia-384:/usr/lib32/nvidia-384
 # comma-separated path of the directory containing nvidia_drv.so and the
 # default Xorg modules path
-XorgModulePath=/usr/lib/nvidia-370/xorg,/usr/lib/xorg/modules
+XorgModulePath=/usr/lib/nvidia-384/xorg,/usr/lib/xorg/modules
 XorgConfFile=/etc/bumblebee/xorg.conf.nvidia
 
 ## Section with nouveau driver specific options, only parsed if Driver=nouveau
